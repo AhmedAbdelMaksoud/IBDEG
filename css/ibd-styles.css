@@ -1,0 +1,117 @@
+@font-face
+{
+	font-family: '__GE SS Two_5';
+	src: url('../fonts/ge%20ss%20two%20bold.eot');
+	src: local('?'), url('../fonts/ge%20ss%20two%20bold.woff') format('woff'), url('../fonts/ge%20ss%20two%20bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__GE SS Two_5';
+	src: url('../fonts/ge%20ss%20two%20light.eot');
+	src: local('?'), url('../fonts/ge%20ss%20two%20light.woff') format('woff'), url('../fonts/ge%20ss%20two%20light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__GE SS Two_5';
+	src: url('../fonts/ge%20ss%20two%20medium.eot');
+	src: local('?'), url('../fonts/ge%20ss%20two%20medium.woff') format('woff'), url('../fonts/ge%20ss%20two%20medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+	
+.navbar-dark .navbar-nav .nav-link, .lead{
+	font-size: 21px;
+	font-family: '__GE SS Two_5';
+	font-weight: 700;
+	color:#fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(250, 72, 72);
+}
+
+.bg-primary {
+background: url("../images/real-estate.jpg") no-repeat center center;
+background-color:#fff !important;
+height:100vh;
+text-shadow: -1px 0 #495057, 0 1px #495057, 1px 0 #495057, 0 -1px #495057;
+}
+
+h1{
+	font-family: '__GE SS Two_5';
+	font-size:  3em;
+}
+/*-------------------------------------------------------------*/
+.colelem {
+    display: inline;
+    float: left;
+    clear: both;
+}
+.grpelem {
+    display: inline;
+    float: left;
+}
+
+.about-group
+{
+	width: 0.01px;
+	margin-left: 0px;
+	margin-top: 27px;
+}
+.about-text
+{
+	z-index: 144;
+	width: 601px;
+	min-height: 118px;
+	background-color: transparent;
+	text-align: justify;
+	font-size: 20px;
+	color: dimgrey;
+	line-height: 1.77;
+	direction: rtl;
+	font-family: '__GE SS Two_5';
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+}
+
+.about-title
+{
+	z-index: 123;
+	width: 156px;
+	min-height: 56px;
+	background-color: transparent;
+	text-align: center;
+	font-size: 43px;
+	direction: rtl;
+	font-family: '__GE SS Two_5';
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 30px;
+	left: 621px;
+}
+
+/*-------------------------------------------------------------*/
+@media only screen and (max-width: 860px) {
+    .bg-primary {
+		/*background: url("../images/newLogoMin.png") no-repeat center center;*/
+		height:100%;
+		padding-top: 30px;
+		text-shadow: -1px 0 #495057, 0 1px #495057, 1px 0 #495057, 0 -1px #495057;
+		}
+	#valuesDiv{
+		display: none;
+
+	}
+}
